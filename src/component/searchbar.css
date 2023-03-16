@@ -1,0 +1,23 @@
+.flex{
+    display: flex;
+    gap: 1rem;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem;
+    gap: 6rem;
+}
+.search,.add{
+    color: black;
+    cursor: pointer;
+}
+.back{
+    background-color: grey;
+}
+input{
+    padding: 4px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
